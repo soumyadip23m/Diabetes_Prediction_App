@@ -13,7 +13,7 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(page_title="Diabetes Prediction App",
                    layout="wide",
-                   page_icon="(❁´◡`❁)"
+                   page_icon=""
 
 # Get current working directory
 working_dir = os.path.dirname(os.path.abspath(__file__))
