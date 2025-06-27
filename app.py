@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 16 19:02:00 2025
+Created on Fri Jun 27 19:02:00 2025
 
-@author: USER
+@author: Soham, Soumyadip, Arpita, Joy, Shrestha 
 """
 
 import os
@@ -13,7 +13,7 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(page_title="Diabetes Prediction App",
                    layout="wide",
-                   page_icon="🧑‍⚕️")
+                   page_icon="(❁´◡`❁)")
 
 # Get current working directory
 working_dir = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +35,7 @@ def diabetes_prediction(input_data):
 
 # Streamlit App UI
 def main():
-    st.title('🧑‍⚕️ Diabetes Prediction Web App')
+    st.title(' Diabetes Prediction Web App')
 
     # Input fields
     col1, col2, col3 = st.columns(3)
